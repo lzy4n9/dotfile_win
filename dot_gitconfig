@@ -1,0 +1,13 @@
+[http]
+	proxy = http://127.0.0.1:7890
+[https]
+	proxy = http://127.0.0.1:7890
+[init]
+	defaultBranch = main
+[user]
+	email = hellolzy001@gmail.com
+	name = lzy
+[credential "helperselector"]
+	selected = manager
+[alias]
+	ida = !cd \"${GIT_PREFIX:-.}\" && \"C:/Program Files/IDA Professional 9.4/tools/teams/git-ida.exe\"
