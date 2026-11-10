@@ -1,0 +1,14 @@
+[wsl2]
+# pageReporting was REMOVED in WSL 3.x - never add it back (causes 0x8007054f / fallback to None)
+networkingMode=nat
+dnsTunneling=true
+autoProxy=false
+firewall=true
+memory=18GB
+processors=16
+swap=8GB
+
+[experimental]
+autoMemoryReclaim=gradual
+sparseVhd=true
+hostAddressLoopback=true

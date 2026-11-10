@@ -255,33 +255,7 @@ function open {
 function copen {
     explorer.exe .
 }
-# ============================================
-# Git shortcuts
-# ============================================
-function gs {
-    git status
-}
-function ga {
-    git add @args
-}
-function gc {
-    git commit @args
-}
-function gp {
-    git push @args
-}
-function gl {
-    git log --oneline --graph --decorate --all @args
-}
-function gd {
-    git diff @args
-}
-function gco {
-    git checkout @args
-}
-function gsw {
-    git switch @args
-}
+
 # ============================================
 # Security / Network helpers
 # ============================================
@@ -439,3 +413,5 @@ function tools {
 # Write-Host ""
 # Write-Host "PowerShell Ready 🚀" -ForegroundColor Cyan
 # Write-Host ""
+
+function fs {fastfetch}
